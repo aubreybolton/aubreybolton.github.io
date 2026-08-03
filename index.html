@@ -1,274 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Aubrey Bolton | Portfolio</title>
-  <meta name="description" content="Aubrey Bolton — Marketing + MIS portfolio, projects, and contact." />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aubrey Bolton — Marketing &amp; Business Strategy</title>
+<meta name="description" content="Aubrey Bolton — Marketing &amp; Management Information Systems, University of Minnesota. Portfolio and professional experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <!-- Top nav (buttons) -->
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <a class="brand" href="#top">AUBREY BOLTON</a>
 
-      <nav class="nav">
-        <a class="navlink" href="#portfolio">Portfolio</a>
-        <a class="navlink" href="#projects">Projects</a>
-        <a class="navlink" href="#experience">Experience</a>
-        <a class="navlink" href="#about">About</a>
-        <a class="navlink" href="#contact">Contact</a>
-      </nav>
+<div class="grain"></div>
 
-      <div class="nav-actions">
-        <a class="chip" href="assets/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
-        <a class="chip" href="https://www.linkedin.com/in/aubrey-bolton-158711243" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a class="chip" href="https://github.com/aubreybolton" target="_blank" rel="noreferrer">GitHub</a>
+<header class="nav">
+  <a href="#top" class="nav__mark">AB</a>
+  <nav class="nav__links">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="eyebrow">Minneapolis, MN</p>
+    <h1 class="hero__name">Aubrey<br>Bolton</h1>
+    <p class="hero__tagline">Marketing strategy, built on a systems foundation.</p>
+
+    <svg class="signature-line" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,20 C 80,4 160,36 240,20 C 320,4 400,36 480,20 L 520,20 L 520,10 L 540,30 L 560,10 L 560,30 L 580,10 L 580,30 L 600,10 L 620,30 L 640,10 L 660,30 L 680,10 L 700,30 L 720,10 L 740,30 L 760,10 L 780,30 L 800,10 L 820,30 L 840,10 L 860,30 L 880,10 L 900,30 L 920,10 L 940,30 L 960,10 L 980,30 L 1000,20" />
+    </svg>
+
+    <div class="hero__meta">
+      <div>
+        <span class="label">Currently</span>
+        <p>Business Development Intern, Henkel Automotive &amp; E-Mobility</p>
+      </div>
+      <div>
+        <span class="label">Studying</span>
+        <p>Marketing &amp; MIS, Carlson School of Management</p>
+      </div>
+      <div>
+        <span class="label">Graduating</span>
+        <p>December 2026</p>
       </div>
     </div>
-  </header>
+  </section>
 
-  <main id="top">
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-left">
-          <p class="kicker">Senior • UMN Carlson</p>
-          <h1 class="headline">Marketing + MIS<br><span class="accent">Portfolio</span></h1>
-          <p class="subhead">
-            Senior at UMN Carlson • Marketing & Management Information Systems • Business Law Minor.
-            I build digital campaigns, tell stories with data, and ship real-world projects.
-          </p>
-
-          <!-- Hero buttons -->
-          <div class="button-row">
-            <a class="btn primary" href="#portfolio">See Work</a>
-            <a class="btn" href="mailto:YOUR.EMAIL@domain.com">Email</a>
-            <a class="btn" href="assets/resume.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
-          </div>
-
-          <div class="mini-facts">
-            <span>Top skills: Marketing Strategy • Digital Marketing • Data Analysis</span>
-            <span>German: Professional working proficiency</span>
-          </div>
-        </div>
-
-        <div class="hero-right">
-          <!-- swap this image with your own headshot or a brand image -->
-          <div class="polaroid">
-            <img src="assets/images/headshot.jpg" alt="Aubrey Bolton headshot" />
-            <div class="polaroid-caption">available for internships + roles</div>
-          </div>
-        </div>
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <span class="label">01 — About</span>
+    <div class="section__grid">
+      <h2>I work at the point where a brand story has to hold up under a spreadsheet.</h2>
+      <div class="prose">
+        <p>I'm a double major in Marketing and Management Information Systems at the Carlson School of Management, with a minor in Business Law — a combination that keeps me equally comfortable pitching a campaign and pulling apart the data behind it.</p>
+        <p>Over two years at Henkel's Automotive &amp; E-Mobility team, I moved from Marketing Intern into Business Development, which changed how I think about marketing: not as a standalone function, but as one input into a much larger commercial decision. I bring that same instinct to my work leading digital strategy for the University of Minnesota Alumni Association, where I manage content and performance across five platforms for an audience of more than half a million alumni.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Portfolio (image grid like your inspo) -->
-    <section class="section" id="portfolio">
-      <div class="container">
-        <div class="section-head">
-          <h2>Portfolio</h2>
-          <a class="seeall" href="#projects">see all →</a>
+  <!-- EXPERIENCE -->
+  <section class="section section--dark" id="experience">
+    <span class="label">02 — Experience</span>
+    <h2 class="section__title">Where I've worked</h2>
+
+    <ol class="timeline">
+      <li class="timeline__item">
+        <div class="timeline__when">
+          <span class="timeline__org">Henkel</span>
+          <span class="timeline__dates">2 years, current</span>
         </div>
-
-        <div class="gallery">
-          <!-- Replace image files + links with your real work -->
-          <a class="tile" href="#projects">
-            <img src="assets/images/portfolio-1.jpg" alt="Portfolio item 1" />
-            <div class="tile-meta">
-              <span class="tile-title">UMAA Campaign</span>
-              <span class="tile-tag">Social + Email</span>
-            </div>
-          </a>
-
-          <a class="tile" href="#projects">
-            <img src="assets/images/portfolio-2.jpg" alt="Portfolio item 2" />
-            <div class="tile-meta">
-              <span class="tile-title">SmartPal</span>
-              <span class="tile-tag">AI + Finance</span>
-            </div>
-          </a>
-
-          <a class="tile" href="#projects">
-            <img src="assets/images/portfolio-3.jpg" alt="Portfolio item 3" />
-            <div class="tile-meta">
-              <span class="tile-title">Celonis Hackathon</span>
-              <span class="tile-tag">Analytics</span>
-            </div>
-          </a>
+        <div class="timeline__body">
+          <h3>Business Development Intern</h3>
+          <p class="timeline__sub">Automotive &amp; E-Mobility team</p>
+          <p>Promoted from Marketing Intern into a business development capacity, working across the commercial side of the Automotive &amp; E-Mobility business.</p>
         </div>
-
-        <div class="rule"></div>
-
-        <!-- Quirky statement panel (matches inspo vibe) -->
-        <div class="statement">
-          <p class="scribble">NORMAL IS</p>
-          <p class="bigword">OVERRATED</p>
-          <p class="smalllink"><a href="#contact">i’m ready →</a></p>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__when">
+          <span class="timeline__org">Henkel</span>
+          <span class="timeline__dates">Prior role</span>
         </div>
+        <div class="timeline__body">
+          <h3>Marketing Intern</h3>
+          <p class="timeline__sub">Automotive &amp; E-Mobility team</p>
+          <p>Started on the marketing side of the Automotive &amp; E-Mobility team before moving into business development.</p>
+        </div>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__when">
+          <span class="timeline__org">UMN Alumni Association</span>
+          <span class="timeline__dates">Current</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Lead Digital Marketing Intern</h3>
+          <p class="timeline__sub">University of Minnesota</p>
+          <p>Manage strategy and content across five social platforms and oversee campaign analytics for an alumni base of 500,000+.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <span class="label">03 — Skills</span>
+    <h2 class="section__title">How I work</h2>
+    <div class="skills">
+      <div class="skills__col">
+        <h3>Marketing &amp; Brand</h3>
+        <ul>
+          <li>Campaign strategy</li>
+          <li>Social &amp; content management</li>
+          <li>Brand positioning</li>
+          <li>Cross-functional communication</li>
+        </ul>
       </div>
-    </section>
-
-    <!-- Projects -->
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-head">
-          <h2>Projects</h2>
-          <span class="muted">selected work</span>
-        </div>
-
-        <div class="cards">
-          <article class="card">
-            <div class="card-top">
-              <h3>SmartPal & Financial Literacy Using AI</h3>
-              <span class="stamp">Jan 2026–Present</span>
-            </div>
-            <p class="muted">
-              Independent study exploring AI-enabled financial literacy learning.
-            </p>
-            <ul class="bullets">
-              <li>Canvas microlearning modules + measurable student outcomes</li>
-              <li>Research + surveys + implementation plan</li>
-            </ul>
-            <div class="button-row tight">
-              <a class="btn" href="#" target="_blank" rel="noreferrer">Case Summary</a>
-              <a class="btn" href="#" target="_blank" rel="noreferrer">Demo</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-top">
-              <h3>Analytics for Good Hackathon (Celonis)</h3>
-              <span class="stamp">Jan–Feb 2026</span>
-            </div>
-            <p class="muted">
-              Sustainability challenge: data-driven analysis + strategic recommendations.
-            </p>
-            <ul class="bullets">
-              <li>Team collaboration + fast turnaround presentation</li>
-              <li>Storytelling with data under constraints</li>
-            </ul>
-            <div class="button-row tight">
-              <a class="btn" href="#" target="_blank" rel="noreferrer">Slides</a>
-              <a class="btn" href="#" target="_blank" rel="noreferrer">Write-up</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-top">
-              <h3>UMAA Digital Marketing (Ongoing)</h3>
-              <span class="stamp">Feb 2024–Present</span>
-            </div>
-            <p class="muted">
-              Multi-platform campaigns across social, email, web, events.
-            </p>
-            <ul class="bullets">
-              <li>Content tailored by platform + brand consistency</li>
-              <li>KPIs tracked to guide iteration</li>
-            </ul>
-            <div class="button-row tight">
-              <a class="btn" href="https://www.instagram.com/minnesotaalumni" target="_blank" rel="noreferrer">Instagram</a>
-              <a class="btn" href="https://umnalumni.org" target="_blank" rel="noreferrer">Site</a>
-            </div>
-          </article>
-        </div>
+      <div class="skills__col">
+        <h3>Systems &amp; Analytics</h3>
+        <ul>
+          <li>Campaign &amp; performance analytics</li>
+          <li>Management information systems</li>
+          <li>Business process &amp; data structuring</li>
+          <li>Business law &amp; compliance fundamentals</li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Experience (keep your longer list here if you want) -->
-    <section class="section" id="experience">
-      <div class="container">
-        <div class="section-head">
-          <h2>Experience</h2>
-          <span class="muted">what I do week-to-week</span>
-        </div>
+  <!-- EDUCATION -->
+  <section class="section section--dark" id="education">
+    <span class="label">04 — Education</span>
+    <h2 class="section__title">Education</h2>
+    <div class="edu">
+      <h3>University of Minnesota, Twin Cities</h3>
+      <p class="timeline__sub">Carlson School of Management</p>
+      <p>Bachelor of Science in Business — Marketing &amp; Management Information Systems (double major)<br>
+      Minor in Business Law<br>
+      Expected graduation: December 2026</p>
+    </div>
+  </section>
 
-        <div class="cards">
-          <article class="card">
-            <div class="card-top">
-              <h3>Lead Digital Marketing & Communications Intern — UMAA</h3>
-              <span class="stamp">Feb 2024–Present</span>
-            </div>
-            <ul class="bullets">
-              <li>Execute campaigns across social, email, blogs, web, ads</li>
-              <li>Capture event content + analyze KPIs for improvements</li>
-            </ul>
-          </article>
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <span class="label">05 — Contact</span>
+    <h2>Let's talk.</h2>
+    <p class="prose">I'm currently exploring full-time opportunities beginning December 2026. Reach out — I'd love to hear from you.</p>
+    <div class="contact__links">
+      <a href="mailto:youremail@umn.edu" class="contact__link">Email</a>
+      <a href="https://www.linkedin.com/in/yourprofile" class="contact__link">LinkedIn</a>
+      <a href="#" class="contact__link">Résumé (PDF)</a>
+    </div>
+  </section>
 
-          <article class="card">
-            <div class="card-top">
-              <h3>Student Senator — UMN Carlson</h3>
-              <span class="stamp">Oct 2025–Present</span>
-            </div>
-            <ul class="bullets">
-              <li>Elected representative contributing to university governance</li>
-              <li>Co-sponsored Nov 21 resolution on medical school negotiations</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
+</main>
 
-    <!-- About -->
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-head">
-          <h2>About</h2>
-          <span class="muted">quick snapshot</span>
-        </div>
+<footer class="footer">
+  <p>Aubrey Bolton — Minneapolis, MN</p>
+</footer>
 
-        <div class="about-grid">
-          <div class="paper">
-            <h3>Quick Facts</h3>
-            <ul class="facts">
-              <li><span>School</span><span>UMN Carlson</span></li>
-              <li><span>Major</span><span>Marketing + MIS</span></li>
-              <li><span>Minor</span><span>Business Law</span></li>
-              <li><span>Skills</span><span>Strategy • Digital • Analytics</span></li>
-              <li><span>Language</span><span>German (Professional)</span></li>
-            </ul>
-          </div>
-
-          <div class="paper">
-            <h3>What I’m into</h3>
-            <p class="muted">
-              I like roles that mix creativity + strategy + measurable impact —
-              digital marketing, analytics, product storytelling, and AI-enabled education tools.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section-head">
-          <h2>Contact</h2>
-          <span class="muted">let’s talk</span>
-        </div>
-
-        <div class="contact-box">
-          <a class="contact-link" href="mailto:YOUR.EMAIL@domain.com">YOUR.EMAIL@domain.com</a>
-          <div class="button-row">
-            <a class="btn" href="assets/resume.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
-            <a class="btn" href="https://www.linkedin.com/in/aubrey-bolton-158711243" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a class="btn" href="https://github.com/aubreybolton" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container footer-inner">
-        <span>© <span id="year"></span> Aubrey Bolton</span>
-        <span class="muted">site navigation: home • portfolio • projects • experience • about • contact</span>
-      </div>
-    </footer>
-  </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
